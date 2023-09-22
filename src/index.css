@@ -11,3 +11,20 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+/* Outer flex container */
+.outer-flex-container {
+  display: flex;
+  flex-direction: column; /* or row, or other flex directions */
+  /* Other flex properties for the outer container */
+}
+
+/* Inner flex container */
+.inner-flex-container {
+  display: flex;
+  /* Adjust flex properties for the inner container */
+}
+
+/* Style for flex items */
+.item, .inner-item {
+  /* Style properties for items */
+}

@@ -1,38 +1,145 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.header{
+  height: 100px;
+ 
+  margin: 10px 100px;
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
+}
+ul{
+  display: flex;
+  list-style-type: none;
+}
+ul li {
+  padding: 0px 20px;
+  cursor: pointer;
+}
+ul li:hover{
+  color:red;
+  cursor:pointer
+}
+.main-grid{
+  margin:10px 100px;
+  display: flex;
+  height:600px;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+.left-side-grid{
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  width: 100%;
+  flex:3;
+  
+}
+
+.img-container{
+  width: 100%;
+}
+.desktop-img{
+  width:100%;
+}
+.middle-sub-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 100%;
+  
+  align-items: center;
+
+}
+.web3{
+  font-size: 45px;
+  font-family: 'Lexend Deca', sans-serif;
+}
+.web3-grid{
+  padding:0px 10px;
+}
+.web3-descrip-grid{
+  padding: 0px 10px;
+}
+.web3-descrip{
+  font-size: 15px;
+  font-family: 'Lexend Deca', sans-serif;
+  color: gray;
+  
+}
+.web3-btn{
+  padding: 10px 20px;
+  background-color: black;
   color: white;
+  font-family: 'Lexend Deca', sans-serif;
+  border: none;
+  cursor: pointer;
 }
 
-.App-link {
-  color: #61dafb;
+.bottom-grid{
+  display: flex;
+  flex-direction: row;
+  margin: 150px 100px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media(min-width:665px) and (max-width:1000px){
+  .main-grid{
+    display: grid;
+    grid-template-rows:1fr;
   }
-  to {
-    transform: rotate(360deg);
+  .bottom-grid{
+    display:grid;
+    grid-template-rows: 1fr;
+    margin-top: 450px;
+    margin-left:100px;
+    margin-right: 100px;
   }
+}
+
+
+
+.bottom-right-div{
+  padding-left: 15px;
+  text-align: start;
+  width: 250px;
+}
+.box{
+  display: flex;
+  flex:1;
+}
+.bottom-image{
+  height: 150px;
+}
+.number{
+  color:gray;
+  font-size: 20px;
+  font-weight: 500 ;
+  font-family: 'Lexend Deca', sans-serif;
+}
+.name{
+  color:black;
+  font-size: 15px;
+  font-weight: 900;
+  font-family: 'Lexend Deca', sans-seri;
+}
+.description{
+  color:gray;
+  font-size: 15px;
+  font-weight: 500 ;
+  font-family: 'Lexend Deca', sans-serif;
+  width: 100%; 
+} 
+.right-side-grid{
+  width: 100%;
+  height:100%;
+  flex: 1;
+  background-color: hsl(240, 100%, 5%);
+  color: white;
+  display: grid;
+  flex-direction: column;
+  margin-left:20px;
+  padding: 0px 20px;
+}
+.right-grid-head{
+  color:hsl(35, 77%, 62%) ;
+}
+.right-grid-name:hover{
+  color:hsl(35, 77%, 62%) ;
+  cursor: pointer;
 }
