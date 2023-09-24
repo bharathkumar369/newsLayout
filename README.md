@@ -1,70 +1,85 @@
-# Getting Started with Create React App
+# Frontend Mentor - News homepage solution
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a solution to the [News homepage challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/news-homepage-H6SWTa1MFl). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
-## Available Scripts
+## Overview
 
-In the project directory, you can run:
+### The challenge
 
-### `npm start`
+Users should be able to:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- View the optimal layout for the interface depending on their device's screen size
+- See hover and focus states for all interactive elements on the page
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+### Links
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Built with
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+- CSS Grid
+- Mobile-first workflow
+- [React](https://reactjs.org/) - JS library
+- [Styled Components](https://styled-components.com/) - For styles
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+### What I learned
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- woahh... i've learned a lot by own in "GRID" and "flex"... i thought i would complete this in 2 hours but took more than a day... i realized how powerful is nested grid ..
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+``` (iam proud of this code)
+       <div className="main-grid">
+            <div className="left-side-grid">
+                <div className="img-container" >
+                    <img src="../../images/image-web-3-desktop.jpg" alt="" className="desktop-img"/>
+                </div>
+                <div className="middle-sub-grid">
+                    <div className="web3-grid">
+                        <h1 className="web3">The Bright future of web 3.O?</h1>
+                    </div>
+                    <div className="web3-descrip-grid">
+                        <p className="web3-descrip">We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. But is it really fulfilling its promise? </p>
+                        <button className="web3-btn">REAR MORE</button>
+                    </div>               
+                </div>         
+            </div>
+            <div className="right-side-grid">
+                <div >
+                    <h1 className="right-grid-head">New</h1>
+                    <h2 className="right-grid-name">Hydrogen VS Electric cars </h2>
+                    <p className="right-grid-descrip">Will hydrogen-fueled cars ever catch up to EVs? </p>
+                    <hr/>
+                </div>
+                <div>
+                    <h2 className="right-grid-name">The Downsides of AI Artistry</h2>
+                    <p className="right-grid-descrip">What are the possible adverse effects of on-demand AI image generation?</p>                
+                    <hr/>
+                </div>
+                <div>
+                    <h2 className="right-grid-name">Is VC Funding Drying Up?</h2>
+                    <p className="right-grid-descrip">Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
+                </div>
+            </div>
+        </div>    
+    )
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+### Continued development
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+i will develop my responsive skills more in future
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+## Author
+- Frontend Mentor - [@bharathkumar369](https://www.frontendmentor.io/profile/bharathkumar369)
+- Twitter - [@bharathkumar693](https://twitter.com/bharathkumar693)
+- Discord - [bharath36]
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
