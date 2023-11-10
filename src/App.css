@@ -24,6 +24,11 @@ ul li:hover{
   height:600px;
   justify-content: center;
 }
+@media (max-width:600px) {
+  .main-grid{
+    display: block;
+  }
+}
 
 .left-side-grid{
   display: grid;
@@ -36,8 +41,19 @@ ul li:hover{
 .img-container{
   width: 100%;
 }
+@media (max-width:600px) {
+  .img-container{
+    
+    padding-bottom: 0;
+  }
+}
 .desktop-img{
   width:100%;
+}
+@media (max-width:600px) {
+  .desktop-img{
+    width: 100%;  
+  }
 }
 .middle-sub-grid{
   display: grid;
@@ -45,7 +61,12 @@ ul li:hover{
   width: 100%;
   
   align-items: center;
-
+}
+@media (max-width:600px) {
+  .middle-sub-grid{
+    display: block;
+    padding-top:0px;
+  }
 }
 .web3{
   font-size: 45px;
@@ -77,8 +98,14 @@ ul li:hover{
   flex-direction: row;
   margin: 150px 100px;
 }
-
-@media(min-width:665px) and (max-width:1000px){
+@media(max-width:600px){
+  .bottom-grid{
+    display: block;
+    padding-top: 40rem;
+    
+  }
+}
+/* @media(min-width:665px) and (max-width:1000px){
   .main-grid{
     display: grid;
     grid-template-rows:1fr;
@@ -90,7 +117,7 @@ ul li:hover{
     margin-left:100px;
     margin-right: 100px;
   }
-}
+} */
 
 
 
@@ -135,6 +162,13 @@ ul li:hover{
   flex-direction: column;
   margin-left:20px;
   padding: 0px 20px;
+}
+@media (max-width:600px){
+  .right-side-grid{
+    display: block;
+    padding-bottom: 0;
+    margin-left: 0;
+  }
 }
 .right-grid-head{
   color:hsl(35, 77%, 62%) ;
